@@ -49,6 +49,13 @@ defaults:
     seo:
       type: "WebPage"
 
+- scope:
+    path: _models
+    type: model
+  values:
+    layout: models
+    sectionid: models
+
 collections:
   docs:
     permalink: /:collection/:path/
